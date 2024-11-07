@@ -15,7 +15,7 @@ body{
     align-items: center;
     text-align: center;
     /* margin: 0 auto; */
-    height: 30rem;
+    height: 29rem;
 
 }
 
@@ -23,15 +23,21 @@ body{
     margin: 6rem 0rem;
     padding: 0.5rem 1rem;
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: #447a9d;
+    color: white;
 }
 
 #subtitle{
-    background-color: lightcyan;
+    color: white;
+    background-color: #1c3554;
     width: 40rem;
     padding: 0.5rem 0rem;
     border: none;
     border-radius: 15px;
+}
+
+#activity-conatiner{
+    background-color: #f1fbf0;
 }
 
 #activity-hero{
@@ -42,6 +48,8 @@ body{
 
 #title-activities{
     text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 
 .hero-img {
@@ -57,12 +65,12 @@ body{
 #tour-card{
     width: 35rem;
     margin: 3rem auto;
-    background-color: aquamarine;
+    background-color: #a7dadb;
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px #3e7898;
     border-radius: 20px 20px ;
     
 }
@@ -76,4 +84,13 @@ body{
 
 #footer{
     text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.hero-descript{
+    font-size: larger;
+}
+
+.activity-card{
+    width: 22rem;
 }
